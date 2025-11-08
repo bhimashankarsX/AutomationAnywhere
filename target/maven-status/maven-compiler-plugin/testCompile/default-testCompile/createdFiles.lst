@@ -1,0 +1,4 @@
+com\bhima\AutomationAnywhere\tests\UI\UITests.class
+com\bhima\AutomationAnywhere\tests\api\GetUsersTest.class
+com\bhima\AutomationAnywhere\tests\api\APITests.class
+com\bhima\AutomationAnywhere\tests\api\LearningInstanceTest.class

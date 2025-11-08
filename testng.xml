@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AutomationAnywhere Suite" parallel="methods" thread-count="2">
+  <listeners>
+    <listener class-name="com.bhima.AutomationAnywhere.listeners.TestListener"/>
+  </listeners>
+  <test name="ui-and-api-tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="headless" value="true"/>
+    <parameter name="enableHar" value="false"/>
+    <parameter name="enableCdp" value="true"/>
+    <classes>
+     <class name="com.bhima.AutomationAnywhere.tests.UI.UITests"/>
+      <class name="com.bhima.AutomationAnywhere.tests.api.LearningInstanceTest"/>
+    </classes>
+  </test>
+</suite>

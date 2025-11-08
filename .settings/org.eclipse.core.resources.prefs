@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/bhima/AutomationAnywhere/coreEngine/BaseTest.java=UTF-8
+encoding//src/main/java/com/bhima/AutomationAnywhere/coreEngine/DevToolsTestBase.java=UTF-8
+encoding//src/main/java/com/bhima/AutomationAnywhere/utils/ApiValidator.java=UTF-8
+encoding//src/main/java/com/bhima/AutomationAnywhere/utils/DevToolsNetworkHelper.java=UTF-8
+encoding//src/main/java/com/bhima/AutomationAnywhere/utils/HarUtils.java=UTF-8
+encoding//src/test/java/com/bhima/AutomationAnywhere/tests/api/LearningInstanceTest.java=UTF-8

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-08T09:26:40 IST" name="AutomationAnywhere Suite" finished-at="2025-11-08T09:27:33 IST" duration-ms="52134">
+    <groups>
+    </groups>
+    <test started-at="2025-11-08T09:26:40 IST" name="ui-and-api-tests" finished-at="2025-11-08T09:27:33 IST" duration-ms="52134">
+      <class name="com.bhima.AutomationAnywhere.tests.UI.UITests">
+        <test-method is-config="true" signature="initExtent()[pri:0, instance:com.bhima.AutomationAnywhere.tests.UI.UITests@568ff82]" started-at="2025-11-08T09:26:40 IST" name="initExtent" finished-at="2025-11-08T09:26:40 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtent -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.bhima.AutomationAnywhere.tests.UI.UITests@568ff82]" started-at="2025-11-08T09:26:40 IST" name="setUp" finished-at="2025-11-08T09:26:42 IST" duration-ms="1503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bhima.AutomationAnywhere.tests.UI.UITests.createFormWithUpload()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createFormWithUpload()[pri:0, instance:com.bhima.AutomationAnywhere.tests.UI.UITests@568ff82]" started-at="2025-11-08T09:26:42 IST" name="createFormWithUpload" description="Use Case 2: Form with Upload Flow (UI Automation)" finished-at="2025-11-08T09:27:24 IST" duration-ms="41992" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login failed! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login failed! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.bhima.AutomationAnywhere.tests.UI.UITests.createFormWithUpload(UITests.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFormWithUpload -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bhima.AutomationAnywhere.tests.UI.UITests@568ff82]" started-at="2025-11-08T09:27:24 IST" name="tearDown" finished-at="2025-11-08T09:27:24 IST" duration-ms="508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createFormWithUpload status=FAILURE method=UITests.createFormWithUpload()[pri:0, instance:com.bhima.AutomationAnywhere.tests.UI.UITests@568ff82] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.bhima.AutomationAnywhere.tests.UI.UITests@568ff82]" started-at="2025-11-08T09:27:33 IST" name="tearDownSuite" finished-at="2025-11-08T09:27:33 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.bhima.AutomationAnywhere.tests.UI.UITests -->
+      <class name="com.bhima.AutomationAnywhere.tests.api.LearningInstanceTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.bhima.AutomationAnywhere.tests.api.LearningInstanceTest@45ca843]" started-at="2025-11-08T09:26:40 IST" name="setUp" finished-at="2025-11-08T09:26:42 IST" duration-ms="1503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bhima.AutomationAnywhere.tests.api.LearningInstanceTest.validateLearningInstanceCreationAPI() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupDevTools()[pri:0, instance:com.bhima.AutomationAnywhere.tests.api.LearningInstanceTest@45ca843]" started-at="2025-11-08T09:26:42 IST" name="setupDevTools" finished-at="2025-11-08T09:26:42 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDevTools -->
+        <test-method signature="validateLearningInstanceCreationAPI()[pri:0, instance:com.bhima.AutomationAnywhere.tests.api.LearningInstanceTest@45ca843]" started-at="2025-11-08T09:26:42 IST" name="validateLearningInstanceCreationAPI" description="Validate Learning Instance creation API using Chrome DevTools Network Interception" finished-at="2025-11-08T09:27:32 IST" duration-ms="50414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLearningInstanceCreationAPI -->
+        <test-method is-config="true" signature="tearDownDevTools()[pri:0, instance:com.bhima.AutomationAnywhere.tests.api.LearningInstanceTest@45ca843]" started-at="2025-11-08T09:27:32 IST" name="tearDownDevTools" finished-at="2025-11-08T09:27:32 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDevTools -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bhima.AutomationAnywhere.tests.api.LearningInstanceTest@45ca843]" started-at="2025-11-08T09:27:32 IST" name="tearDown" finished-at="2025-11-08T09:27:33 IST" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLearningInstanceCreationAPI status=SUCCESS method=LearningInstanceTest.validateLearningInstanceCreationAPI()[pri:0, instance:com.bhima.AutomationAnywhere.tests.api.LearningInstanceTest@45ca843] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bhima.AutomationAnywhere.tests.api.LearningInstanceTest -->
+    </test> <!-- ui-and-api-tests -->
+  </suite> <!-- AutomationAnywhere Suite -->
+</testng-results>
